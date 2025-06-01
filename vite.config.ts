@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+   base: './', // <-- ADD THIS if deploying to Netlify root
 }));
